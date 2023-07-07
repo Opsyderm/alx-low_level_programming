@@ -1,14 +1,14 @@
 #include "main.h"
-void _puts(char *str)
-#include<stdio.h>
-/**
- * main - Entry point
- *
- * Return: Always 0 (Success)
- */
-int main(void)
-{
-	puts("\"Programming is like building a multilingual puzzle");
-	return (0);
-}
 
+/**
+ * _puts - this program prints a string to stdout.
+ * @str: this is the string to be printed
+ * _putchar: this prints a new line
+ */
+void _puts(char *str)
+{
+	while (*str)
+		_putchar(*str++);
+
+	_putchar('\n');
+}

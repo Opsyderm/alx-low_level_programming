@@ -1,5 +1,5 @@
 #include "main.h"
-		
+
 /**
  * char *_strcpy - this is a function that copies the string pointed to by src
  * @dest: copy to
@@ -23,22 +23,3 @@ char *_strcpy(char *dest, char *src)
 	dest[l] = '\0';
 	return (dest);
 }
- 
- 
-============================
-
-
- 
-100-atoi.c
-
-
-#include "main.h"
-/**
- * _atoi - convert a string into an integer.
- *
- * @s: the string to use.
- *
- * Return: integer.
- */
-int _atoi(char *s)
-{
