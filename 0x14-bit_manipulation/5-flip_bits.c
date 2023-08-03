@@ -6,7 +6,11 @@
  * @n: the first number
  * @m: the second number
  *
- * Return: Return number of bits to change
+ * Return: Return 
+
+	return (count);
+}
+number of bits to change
  */
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
@@ -21,3 +25,5 @@ unsigned int flip_bits(unsigned long int n, unsigned long int m)
 			count++;
 	}
 
+	return (count);
+}
